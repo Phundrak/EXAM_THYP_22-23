@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ev: <http://purl.org/dc/dcmitype/Event> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://schema.org/> .
+@prefix ticket: <http://vocab.phundrak.com/Ticket> .
+
+ticket: dc:description "Description for event tickets" ;
+    dc:title "Concert Tickets" .
+
+ticket:Event a ev:temporal,
+    ev:title,
+    ev:isPartOf,
+    ev:temporal ;
+    rdfs:comment "An event for which tickets can be sold" ;
+    rdfs:label "Event" ;
+    rdfs:isDefinedBy ticket: .
+
+ticket:Ticket a sc:price,
+    sc:availability ;
+    rdfs:comment "A ticket itself" ;
+    rdfs:label "Ticket" ;
+    rdfs:isDefinedBy ticket: .
+
+ticket:event a ticket:Event .
+ticket:price a sc:PriceSpecification .
+sc:mainEntity a owl:Entity .
