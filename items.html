@@ -5,11 +5,32 @@
     <title>Items</title>
     <script src="https://unpkg.com/vue@next"></script>
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4d42d0c8c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
 
   <body>
     <h1>My Items from Omeka-S</h1>
-    <div id="app"></div>
+    <div id="app">
+      <div v-if="items">
+        <ul>
+          <li v-for="item in items">
+            <Transition name="fade">
+              <div class="item" v-if="item.show">
+                <div class="content">
+                  <h3>{{item["o:title"]}}</h3>
+                  <div class="type">Type: {{item["@type"][1]}}</div>
+                </div>
+                <i class="fa-solid fa-eye" @click="toggleItem(item)"></i>
+              </div>
+            </Transition>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -1,1 +1,163 @@
-[{"@context":"https:\/\/omekas.phundrak.com\/api-context","@id":"https:\/\/omekas.phundrak.com\/api\/items\/1","@type":["o:Item","acco:HotelRoom"],"o:id":1,"o:is_public":true,"o:owner":{"@id":"https:\/\/omekas.phundrak.com\/api\/users\/1","o:id":1},"o:resource_class":{"@id":"https:\/\/omekas.phundrak.com\/api\/resource_classes\/120","o:id":120},"o:resource_template":{"@id":"https:\/\/omekas.phundrak.com\/api\/resource_templates\/1","o:id":1},"o:thumbnail":null,"o:title":"Chambre quatre personnes","thumbnail_display_urls":{"large":null,"medium":null,"square":null},"o:created":{"@value":"2022-12-04T22:49:30+00:00","@type":"http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"},"o:modified":{"@value":"2022-12-04T23:01:44+00:00","@type":"http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"},"o:media":[],"o:item_set":[],"o:site":[],"dcterms:title":[{"type":"literal","property_id":1,"property_label":"Title","is_public":true,"@value":"Chambre quatre personnes"}],"dcterms:date":[{"type":"literal","property_id":7,"property_label":"Date","is_public":true,"@value":"2022-12-04"}],"dcterms:spatial":[{"type":"literal","property_id":40,"property_label":"Spatial Coverage","is_public":true,"@value":"Frederiksberg, Copenhagen"}],"acco:priceComponent":[{"type":"literal","property_id":189,"property_label":"price component (0..*)","is_public":true,"@value":"13\u20ac"}],"acco:petsAllowed":[{"type":"literal","property_id":210,"property_label":"pets allowed (0..1)","is_public":true,"@value":"true"}],"acco:occupancyAdults":[{"type":"literal","property_id":185,"property_label":"occupancy adults (0..1)","is_public":true,"@value":"4"}]},{"@context":"https:\/\/omekas.phundrak.com\/api-context","@id":"https:\/\/omekas.phundrak.com\/api\/items\/2","@type":["o:Item","acco:CampingPitch"],"o:id":2,"o:is_public":true,"o:owner":{"@id":"https:\/\/omekas.phundrak.com\/api\/users\/1","o:id":1},"o:resource_class":{"@id":"https:\/\/omekas.phundrak.com\/api\/resource_classes\/119","o:id":119},"o:resource_template":{"@id":"https:\/\/omekas.phundrak.com\/api\/resource_templates\/1","o:id":1},"o:thumbnail":null,"o:title":"Camping refuge Rabuons","thumbnail_display_urls":{"large":null,"medium":null,"square":null},"o:created":{"@value":"2022-12-04T23:10:14+00:00","@type":"http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"},"o:modified":{"@value":"2022-12-04T23:10:14+00:00","@type":"http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"},"o:media":[],"o:item_set":[],"o:site":[],"dcterms:title":[{"type":"literal","property_id":1,"property_label":"Title","is_public":true,"@value":"Camping refuge Rabuons"}],"dcterms:date":[{"type":"literal","property_id":7,"property_label":"Date","is_public":true,"@value":"2023-01-28"}],"acco:occupancyAdults":[{"type":"literal","property_id":185,"property_label":"occupancy adults (0..1)","is_public":true,"@value":"2"}]}]
+[
+  {
+    "@context": "https://omekas.phundrak.com/api-context",
+    "@id": "https://omekas.phundrak.com/api/items/1",
+    "@type": [
+      "o:Item",
+      "acco:HotelRoom"
+    ],
+    "o:id": 1,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "https://omekas.phundrak.com/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "https://omekas.phundrak.com/api/resource_classes/120",
+      "o:id": 120
+    },
+    "o:resource_template": {
+      "@id": "https://omekas.phundrak.com/api/resource_templates/1",
+      "o:id": 1
+    },
+    "o:thumbnail": null,
+    "o:title": "Chambre quatre personnes",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2022-12-04T22:49:30+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T23:01:44+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Chambre quatre personnes"
+      }
+    ],
+    "dcterms:date": [
+      {
+        "type": "literal",
+        "property_id": 7,
+        "property_label": "Date",
+        "is_public": true,
+        "@value": "2022-12-04"
+      }
+    ],
+    "dcterms:spatial": [
+      {
+        "type": "literal",
+        "property_id": 40,
+        "property_label": "Spatial Coverage",
+        "is_public": true,
+        "@value": "Frederiksberg, Copenhagen"
+      }
+    ],
+    "acco:priceComponent": [
+      {
+        "type": "literal",
+        "property_id": 189,
+        "property_label": "price component (0..*)",
+        "is_public": true,
+        "@value": "13€"
+      }
+    ],
+    "acco:petsAllowed": [
+      {
+        "type": "literal",
+        "property_id": 210,
+        "property_label": "pets allowed (0..1)",
+        "is_public": true,
+        "@value": "true"
+      }
+    ],
+    "acco:occupancyAdults": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "occupancy adults (0..1)",
+        "is_public": true,
+        "@value": "4"
+      }
+    ]
+  },
+  {
+    "@context": "https://omekas.phundrak.com/api-context",
+    "@id": "https://omekas.phundrak.com/api/items/2",
+    "@type": [
+      "o:Item",
+      "acco:CampingPitch"
+    ],
+    "o:id": 2,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "https://omekas.phundrak.com/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "https://omekas.phundrak.com/api/resource_classes/119",
+      "o:id": 119
+    },
+    "o:resource_template": {
+      "@id": "https://omekas.phundrak.com/api/resource_templates/1",
+      "o:id": 1
+    },
+    "o:thumbnail": null,
+    "o:title": "Camping refuge Rabuons",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2022-12-04T23:10:14+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T23:10:14+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Camping refuge Rabuons"
+      }
+    ],
+    "dcterms:date": [
+      {
+        "type": "literal",
+        "property_id": 7,
+        "property_label": "Date",
+        "is_public": true,
+        "@value": "2023-01-28"
+      }
+    ],
+    "acco:occupancyAdults": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "occupancy adults (0..1)",
+        "is_public": true,
+        "@value": "2"
+      }
+    ]
+  }
+]
